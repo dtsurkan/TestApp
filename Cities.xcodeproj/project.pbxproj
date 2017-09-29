@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CD6034E1F7D777D00B5020F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6034D1F7D777D00B5020F /* AppDelegate.swift */; };
-		4CD603501F7D777D00B5020F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6034F1F7D777D00B5020F /* ViewController.swift */; };
-		4CD603531F7D777D00B5020F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603511F7D777D00B5020F /* Main.storyboard */; };
-		4CD603551F7D777D00B5020F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603541F7D777D00B5020F /* Assets.xcassets */; };
-		4CD603581F7D777D00B5020F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603561F7D777D00B5020F /* LaunchScreen.storyboard */; };
+		4CD603761F7D7AB600B5020F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603751F7D7AB600B5020F /* AppDelegate.swift */; };
+		4CD6037B1F7D7AD400B5020F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603781F7D7AD400B5020F /* Assets.xcassets */; };
+		4CD6037C1F7D7AD400B5020F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603791F7D7AD400B5020F /* Info.plist */; };
+		4CD6037D1F7D7AD400B5020F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD6037A1F7D7AD400B5020F /* LaunchScreen.storyboard */; };
+		4CD603871F7D7D6400B5020F /* CitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603811F7D7D6400B5020F /* CitiesPresenter.swift */; };
+		4CD603881F7D7D6400B5020F /* CitiesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603821F7D7D6400B5020F /* CitiesWorker.swift */; };
+		4CD603891F7D7D6400B5020F /* CitiesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603831F7D7D6400B5020F /* CitiesRouter.swift */; };
+		4CD6038A1F7D7D6400B5020F /* CitiesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603841F7D7D6400B5020F /* CitiesModels.swift */; };
+		4CD6038B1F7D7D6400B5020F /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603851F7D7D6400B5020F /* CitiesViewController.swift */; };
+		4CD6038C1F7D7D6400B5020F /* CitiesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603861F7D7D6400B5020F /* CitiesInteractor.swift */; };
+		4CD603921F7D7E1500B5020F /* Cities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603911F7D7E1500B5020F /* Cities.storyboard */; };
+		4CD603981F7D85B700B5020F /* CitiesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CD603971F7D85B700B5020F /* CitiesData.json */; };
+		4CD6039C1F7D954D00B5020F /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6039A1F7D954D00B5020F /* CityCell.swift */; };
+		4CD6039D1F7D954D00B5020F /* CityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD6039B1F7D954D00B5020F /* CityCell.xib */; };
+		4CD603A11F7D9B9900B5020F /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD603A01F7D9B9900B5020F /* WeatherAPI.swift */; };
+		C9D4ABC41EDA54220E190EBB /* Pods_Cities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6331EA7EC74252F4CA42E6 /* Pods_Cities.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B43B15511FC9494F63BB234 /* Pods-Cities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cities/Pods-Cities.debug.xcconfig"; sourceTree = "<group>"; };
 		4CD6034A1F7D777D00B5020F /* Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cities.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CD6034D1F7D777D00B5020F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CD6034F1F7D777D00B5020F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CD603521F7D777D00B5020F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CD603541F7D777D00B5020F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CD603571F7D777D00B5020F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4CD603591F7D777D00B5020F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD603751F7D7AB600B5020F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		4CD603781F7D7AD400B5020F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Application/BundleFiles/Assets.xcassets; sourceTree = "<group>"; };
+		4CD603791F7D7AD400B5020F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Application/BundleFiles/Info.plist; sourceTree = "<group>"; };
+		4CD6037A1F7D7AD400B5020F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Application/BundleFiles/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CD603811F7D7D6400B5020F /* CitiesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesPresenter.swift; path = Modules/CitiesList/CitiesPresenter.swift; sourceTree = "<group>"; };
+		4CD603821F7D7D6400B5020F /* CitiesWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesWorker.swift; path = Modules/CitiesList/CitiesWorker.swift; sourceTree = "<group>"; };
+		4CD603831F7D7D6400B5020F /* CitiesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesRouter.swift; path = Modules/CitiesList/CitiesRouter.swift; sourceTree = "<group>"; };
+		4CD603841F7D7D6400B5020F /* CitiesModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesModels.swift; path = Modules/CitiesList/CitiesModels.swift; sourceTree = "<group>"; };
+		4CD603851F7D7D6400B5020F /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesViewController.swift; path = Modules/CitiesList/CitiesViewController.swift; sourceTree = "<group>"; };
+		4CD603861F7D7D6400B5020F /* CitiesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesInteractor.swift; path = Modules/CitiesList/CitiesInteractor.swift; sourceTree = "<group>"; };
+		4CD603911F7D7E1500B5020F /* Cities.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Cities.storyboard; path = Modules/CitiesList/Cities.storyboard; sourceTree = "<group>"; };
+		4CD603931F7D7EB700B5020F /* Cities-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cities-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CD603971F7D85B700B5020F /* CitiesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CitiesData.json; path = Common/Data/CitiesData.json; sourceTree = "<group>"; };
+		4CD6039A1F7D954D00B5020F /* CityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityCell.swift; path = Modules/CitiesList/Subviews/CityCell.swift; sourceTree = "<group>"; };
+		4CD6039B1F7D954D00B5020F /* CityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CityCell.xib; path = Modules/CitiesList/Subviews/CityCell.xib; sourceTree = "<group>"; };
+		4CD603A01F7D9B9900B5020F /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherAPI.swift; path = Common/Services/Networking/WeatherAPI.swift; sourceTree = "<group>"; };
+		6C3CE33054DB11955036F0DA /* Pods-Cities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cities.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cities/Pods-Cities.release.xcconfig"; sourceTree = "<group>"; };
+		BB6331EA7EC74252F4CA42E6 /* Pods_Cities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D4ABC41EDA54220E190EBB /* Pods_Cities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				4CD6034C1F7D777D00B5020F /* Cities */,
 				4CD6034B1F7D777D00B5020F /* Products */,
+				E5C24890ADD12820B04C103A /* Pods */,
+				E12D9D049B19F95F8AC96619 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,121 @@
 		4CD6034C1F7D777D00B5020F /* Cities */ = {
 			isa = PBXGroup;
 			children = (
-				4CD6034D1F7D777D00B5020F /* AppDelegate.swift */,
-				4CD6034F1F7D777D00B5020F /* ViewController.swift */,
-				4CD603511F7D777D00B5020F /* Main.storyboard */,
-				4CD603541F7D777D00B5020F /* Assets.xcassets */,
-				4CD603561F7D777D00B5020F /* LaunchScreen.storyboard */,
-				4CD603591F7D777D00B5020F /* Info.plist */,
+				4CD603721F7D7A8600B5020F /* Application */,
+				4CD603711F7D7A6F00B5020F /* Common */,
+				4CD6037F1F7D7B0A00B5020F /* Modules */,
 			);
 			path = Cities;
+			sourceTree = "<group>";
+		};
+		4CD603711F7D7A6F00B5020F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6039E1F7D9B4900B5020F /* Services */,
+				4CD603941F7D849000B5020F /* Data */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4CD603721F7D7A8600B5020F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603731F7D7A8F00B5020F /* AppDelegate */,
+				4CD603771F7D7AC300B5020F /* BundleFiles */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		4CD603731F7D7A8F00B5020F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603751F7D7AB600B5020F /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4CD603771F7D7AC300B5020F /* BundleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603931F7D7EB700B5020F /* Cities-Bridging-Header.h */,
+				4CD603781F7D7AD400B5020F /* Assets.xcassets */,
+				4CD603791F7D7AD400B5020F /* Info.plist */,
+				4CD6037A1F7D7AD400B5020F /* LaunchScreen.storyboard */,
+			);
+			name = BundleFiles;
+			sourceTree = "<group>";
+		};
+		4CD6037F1F7D7B0A00B5020F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603801F7D7B8200B5020F /* CitiesList */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		4CD603801F7D7B8200B5020F /* CitiesList */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603991F7D952600B5020F /* Subviews */,
+				4CD603811F7D7D6400B5020F /* CitiesPresenter.swift */,
+				4CD603821F7D7D6400B5020F /* CitiesWorker.swift */,
+				4CD603831F7D7D6400B5020F /* CitiesRouter.swift */,
+				4CD603841F7D7D6400B5020F /* CitiesModels.swift */,
+				4CD603851F7D7D6400B5020F /* CitiesViewController.swift */,
+				4CD603861F7D7D6400B5020F /* CitiesInteractor.swift */,
+				4CD603911F7D7E1500B5020F /* Cities.storyboard */,
+			);
+			name = CitiesList;
+			sourceTree = "<group>";
+		};
+		4CD603941F7D849000B5020F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603971F7D85B700B5020F /* CitiesData.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		4CD603991F7D952600B5020F /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6039A1F7D954D00B5020F /* CityCell.swift */,
+				4CD6039B1F7D954D00B5020F /* CityCell.xib */,
+			);
+			name = Subviews;
+			sourceTree = "<group>";
+		};
+		4CD6039E1F7D9B4900B5020F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6039F1F7D9B7700B5020F /* Networking */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4CD6039F1F7D9B7700B5020F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4CD603A01F7D9B9900B5020F /* WeatherAPI.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		E12D9D049B19F95F8AC96619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6331EA7EC74252F4CA42E6 /* Pods_Cities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C24890ADD12820B04C103A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B43B15511FC9494F63BB234 /* Pods-Cities.debug.xcconfig */,
+				6C3CE33054DB11955036F0DA /* Pods-Cities.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD6035C1F7D777D00B5020F /* Build configuration list for PBXNativeTarget "Cities" */;
 			buildPhases = (
+				192F50C7464E8D61DB6D0FD5 /* [CP] Check Pods Manifest.lock */,
 				4CD603461F7D777D00B5020F /* Sources */,
 				4CD603471F7D777D00B5020F /* Frameworks */,
 				4CD603481F7D777D00B5020F /* Resources */,
+				06E1076972AD2AD25B55A1C3 /* [CP] Embed Pods Frameworks */,
+				910147D3F0D9140D5C2E873F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +233,8 @@
 				TargetAttributes = {
 					4CD603491F7D777D00B5020F = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XAVH5H9TPA;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,44 +262,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD603581F7D777D00B5020F /* LaunchScreen.storyboard in Resources */,
-				4CD603551F7D777D00B5020F /* Assets.xcassets in Resources */,
-				4CD603531F7D777D00B5020F /* Main.storyboard in Resources */,
+				4CD6039D1F7D954D00B5020F /* CityCell.xib in Resources */,
+				4CD6037C1F7D7AD400B5020F /* Info.plist in Resources */,
+				4CD603921F7D7E1500B5020F /* Cities.storyboard in Resources */,
+				4CD6037B1F7D7AD400B5020F /* Assets.xcassets in Resources */,
+				4CD6037D1F7D7AD400B5020F /* LaunchScreen.storyboard in Resources */,
+				4CD603981F7D85B700B5020F /* CitiesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E1076972AD2AD25B55A1C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cities/Pods-Cities-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cities/Pods-Cities-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		192F50C7464E8D61DB6D0FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cities-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910147D3F0D9140D5C2E873F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cities/Pods-Cities-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD603461F7D777D00B5020F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD603501F7D777D00B5020F /* ViewController.swift in Sources */,
-				4CD6034E1F7D777D00B5020F /* AppDelegate.swift in Sources */,
+				4CD603A11F7D9B9900B5020F /* WeatherAPI.swift in Sources */,
+				4CD603881F7D7D6400B5020F /* CitiesWorker.swift in Sources */,
+				4CD603761F7D7AB600B5020F /* AppDelegate.swift in Sources */,
+				4CD6039C1F7D954D00B5020F /* CityCell.swift in Sources */,
+				4CD603871F7D7D6400B5020F /* CitiesPresenter.swift in Sources */,
+				4CD6038B1F7D7D6400B5020F /* CitiesViewController.swift in Sources */,
+				4CD603891F7D7D6400B5020F /* CitiesRouter.swift in Sources */,
+				4CD6038C1F7D7D6400B5020F /* CitiesInteractor.swift in Sources */,
+				4CD6038A1F7D7D6400B5020F /* CitiesModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4CD603511F7D777D00B5020F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD603521F7D777D00B5020F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4CD603561F7D777D00B5020F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD603571F7D777D00B5020F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4CD6035A1F7D777D00B5020F /* Debug */ = {
@@ -258,25 +450,36 @@
 		};
 		4CD6035D1F7D777D00B5020F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B43B15511FC9494F63BB234 /* Pods-Cities.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Cities/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XAVH5H9TPA;
+				INFOPLIST_FILE = "$(SRCROOT)/Cities/Application/BundleFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vb.Cities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cities/Cities-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4CD6035E1F7D777D00B5020F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3CE33054DB11955036F0DA /* Pods-Cities.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Cities/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XAVH5H9TPA;
+				INFOPLIST_FILE = "$(SRCROOT)/Cities/Application/BundleFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vb.Cities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cities/Cities-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -299,6 +502,7 @@
 				4CD6035E1F7D777D00B5020F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

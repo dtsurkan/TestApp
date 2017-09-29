@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Cities
 //
-//  Created by Vadym Riznychok on 9/28/17.
-//  Copyright © 2017 Vadym Riznychok. All rights reserved.
+//  Created by Dima Tsurkan on 9/28/17.
+//  Copyright © 2017 Dima Tsurkan. All rights reserved.
 //
 
 import UIKit
